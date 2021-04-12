@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bitki.Vistas.UI_registro">
+    <ScrollView>
+        <StackLayout Padding="10,12" Spacing="15" BackgroundColor="DarkGray">
+            <Label Text ="Planta: " />
+            <Entry Placeholder="Introduce el nombre de la planta" x:Name="nombre"/>
+            <Label Text ="Ubicacion: " />
+            <Entry Placeholder="Introduce la ubicacion de la planta" x:Name="ubicacion"/>
+            <Label Text ="Cuidados: " />
+            <Entry Placeholder="Introduce los cuidados de la planta" x:Name="descripcion" />
+            <Button Text="Registrar Planta" BackgroundColor="LawnGreen"  TextColor="Black" Clicked="btn_registrar"></Button>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

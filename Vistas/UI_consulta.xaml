@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bitki.Vistas.UI_consulta">
+    <ScrollView>
+        <StackLayout Padding="10,12" Spacing="15" BackgroundColor="DarkGray">
+            <Image Source="planta.jpg" WidthRequest="80" HeightRequest="70" HorizontalOptions="Center" />
+            <Label Text="Nombre" ></Label>
+            <Label x:Name="Nombre"></Label>
+            <Label Text="Ubicacion" ></Label>
+            <Label x:Name="Ubicacion"></Label>
+            <Label Text="Cuidados" ></Label>
+            <Label x:Name="Descipcion"></Label>
+            <Button Text="Volver" Clicked="btn_regresar" BackgroundColor="BlanchedAlmond" TextColor="Black"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
